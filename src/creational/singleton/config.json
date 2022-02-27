@@ -1,0 +1,5 @@
+{
+    "environment": "development",
+    "connectionString": "",
+    "apiUrl": "http://localhost:3000"
+}
