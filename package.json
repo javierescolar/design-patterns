@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "pub": "git add . && git commit -m \"Updates Common\" && npm version patch && git push -u origin main"
   },
   "keywords": [],
   "author": "Javier Escolar Salcedo",
