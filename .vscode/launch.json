@@ -13,5 +13,10 @@
                 "${workspaceFolder}/**/*.ts"
             ]
         }
-    ]
+    ],
+    "debug.javascript.terminalOptions": {
+        "skipFiles": [
+          "<node_internals>/**"
+        ]
+      },
 }
