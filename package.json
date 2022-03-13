@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "pub": "git add . && git commit -m \"Updates Common\" && npm version patch && git push -u origin main"
+    "pub": "git add . && git commit -m \"Updates Common\" && npm version patch && git push -u origin main",
+    "start": "ts-node-dev"
   },
   "keywords": [],
   "author": "Javier Escolar Salcedo",
